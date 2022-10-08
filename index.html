@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory Game</title>
+    <!-- For Render Element Normal -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Main Style Css -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- For Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.css" />
+    <!-- Link Fonts Google -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <h2 class="title">Game Memory 🃏</h2>
+    <div class="game-container">
+      <span class="loaded"></span>
+      <div class="game-info">
+        <div class="sound">
+          <i class="fa-solid fa-volume-high"></i>
+        </div>
+        <div class="time-count">
+          <i class="fa-solid fa-stopwatch"></i>
+        </div>
+
+        <div class="dark-mode">
+          <span class="toggle"></span>
+          <i class="fa-solid fa-moon dark"></i>
+          <i class="fa-solid fa-sun light"></i>
+        </div>
+      </div>
+      <div class="welcome-Game">
+        <h2 class="title-hello">Hello World👋</h2>
+        <p class="demand">Please Enter Your Name 😇:</p>
+        <input placeholder="Name" type="text" class="name" />
+      </div>
+      <div class="btn-next-previous">
+        <button class="of" id="previous" disabled>
+          <i class="fa-solid fa-arrow-left"></i> Previous
+        </button>
+        <button id="next">Next <i class="fa-solid fa-arrow-right"></i></button>
+      </div>
+    </div>
+    <script src="script/app.js"></script>
+  </body>
+</html>

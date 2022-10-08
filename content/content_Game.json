@@ -1,0 +1,34 @@
+[
+  {
+    "category": "Programming",
+    "emoji": "👨‍💻",
+    "image_directory": [
+      "csharp",
+      "cplus",
+      "css3",
+      "html5",
+      "java",
+      "js",
+      "php",
+      "python",
+      "swift",
+      "typescript"
+    ]
+  },
+  {
+    "category": "Flag",
+    "emoji": "⚽️",
+    "image_directory": [
+      "tunisia",
+      "palestine",
+      "kuwait",
+      "united-arab-emirates",
+      "saudi-arabia",
+      "iraq",
+      "morocco",
+      "algeria",
+      "egypt",
+      "qatar"
+    ]
+  }
+]
